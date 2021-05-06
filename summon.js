@@ -89,7 +89,7 @@ $(document).ready(function () {
   addBreadcrumbs(); 
 		
 //add seperate css file	
-  var cssPath = "https://culibraries.colorado.edu/static/css/";
+  var cssPath = "https://cubl-static.s3-us-west-2.amazonaws.com/summon/";
   $("head").append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'cubsummon.css" />'); // Accessibility titles
 
 }); //end jQuery document.ready
