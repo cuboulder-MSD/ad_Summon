@@ -10,9 +10,8 @@
   </table>
 <p>These settings reflect customizations to OneSearch at CU Boulder. <a href="https://ucblibraries.summon.serialssolutions.com/#!/search?ho=t&l=en&q=">Review the page.</a></p>
 
-External JS file hosted here: https://cubl-static.s3-us-west-2.amazonaws.com/summon/summon.js<br>
-External CSS file hosted here: https://cubl-static.s3-us-west-2.amazonaws.com/summon/cubsummon.css<br>
-Test JS file hosted here: https://libmysql.colorado.edu/summontest/summontest.js<br>
+External JS file hosted here: https://cubl-assets.s3.amazonaws.com/public/summon/summon.js<br>
+External CSS file hosted here: https://cubl-assets.s3.amazonaws.com/public/summon/summon.css<br>
 
 To make updates:
 <ol><li>Go to the Summon Administration Console.</li>
