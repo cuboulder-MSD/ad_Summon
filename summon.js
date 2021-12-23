@@ -33,10 +33,15 @@ This JavaScript will add BrowZine functionality to the results list
 window.browzine = {
   api: "https://api.thirdiron.com/public/v1/libraries/105",
   apiKey: "8ccc925e-d8d0-439e-93de-70661233eee4",
-  journalWording: "View the Journal",
-  articleWording: "View Complete Issue",
-  journalBrowZineWebLinkText: "Browse Now",
-  articleBrowZineWebLinkText: "Browse Now",
+	
+  version: 2, // Required for the other parameters below to work after December 15, 2021.
+  articlePDFDownloadWording: "Journal Article",
+  articleLinkEnabled: false,
+  articleWording: "eJournal",
+
+  journalWording: "eJournal",
+  journalBrowZineWebLinkText: "Browse Journal",
+
 };
  
 browzine.script = document.createElement("script");
@@ -89,8 +94,8 @@ $(document).ready(function () {
   addBreadcrumbs(); 
 		
 //add seperate css file	
-  var cssPath = "https://cubl-static.s3-us-west-2.amazonaws.com/summon/";
-  $("head").append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'cubsummon.css" />'); // Accessibility titles
+  var cssPath = "https://cubl-assets.s3.amazonaws.com/public/summon/";
+  $("head").append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'summon.css" />'); // Accessibility titles
 
 }); //end jQuery document.ready
 
